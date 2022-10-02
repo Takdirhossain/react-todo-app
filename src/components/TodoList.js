@@ -34,8 +34,8 @@ const TodoList = () => {
         setTodos(updateTodos)
     }
     return (
-        <div>
-            <h2>Hello form todolist</h2>
+        <div className='todo-app'>
+            <h1>Todo Application</h1>
             <TodoFroms onSubmit={addTodos}></TodoFroms>
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}></Todo>
         </div>
